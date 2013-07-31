@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Digital Conduct - jQuery Form Validation</title>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<h1 id="heading">jQuery Form Validation/h1>
+	
+	<form id="ginsForm" action="#" method="post">
+		<fieldset>
+			<label>First Name</label>
+			<input type="text" class="required" name="name">
+			<label>Last Name</label>
+			<input type="text" class="required" name="name">
+			<lable>Email</label>
+			<input type="email" class="required" name="email">
+			<p id="error_text"></p>
+			<label>select all that apply</label>
+			<div id="checkboxes">
+				<input type="checkbox" name="check">
+				<input type="checkbox" name="check">
+				<input type="checkbox" name="check">
+		    </div>
+		    <p id="error_check"></p>
+
+		    <label>Multiple Choice</label>
+			<div id="checkboxes">
+				<input type="radio" name="a">
+				<label>A). Question One...</label>
+				
+				<input type="radio" name="b">
+				<label>B). Question Two...</label>
+				
+				<input type="radio" name="c">
+				<label>C). Question Three...</label>
+
+				<input type="radio" name="d">
+				<label>D). All of the Above...</label>
+				
+		    </div>
+		    <p id="error_check"></p>
+
+			<label>Which library is best</label>
+			<select>
+				<option>-- select one --</option>
+				<option>-- jQuery --</option>
+				<option>-- moo Tools --</option>
+				<option>-- DOJO --</option>
+			</select>
+			<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>
