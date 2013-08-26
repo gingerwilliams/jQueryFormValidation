@@ -8,9 +8,9 @@ $(document).ready(function(){
 	});
 
 
-	$(':selected').change(function(){
+	$('.cities').change(function(){
 		console.log($(this).val());
-	});//not sure how to make this one work
+	});//not sure how to make this one work with :selector
 });
 
 

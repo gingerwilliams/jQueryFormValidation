@@ -1,6 +1,11 @@
 <html>
 <head>
 	<title>Digital Conduct - jQuery Form Validation</title>
+	<style>
+	.blue {display:block; width:150px; height:35px; border:1px solid blue; background:#000077;}
+	.green {display:block; width:150px; height:35px; border:1px solid blue; background:#007700;}
+	.red {.blue {display:block; width:150px; height:35px; border:1px solid blue; background:#990000;}}
+	</style>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="form.js"></script>
 </head>
@@ -26,12 +31,12 @@
 			<input type="checkbox" name="ethnic" value="Red">
 
 			<hr>
-			<select>
-				<option type="option" name="city" value="atlanta">Atlanta</option>
-				<option type="option" name="city" value="atlanta">Brooklyn</option>
-				<option type="option" name="city" value="atlanta">Greensboro</option>
-				<option type="option" name="city" value="atlanta">Raleigh</option>
-				<option type="option" name="city" value="atlanta">Hillside</option>
+			<select class="cities">
+				<option type="option" name="city" value="Atlanta">Atlanta</option>
+				<option type="option" name="city" value="Brooklyn">Brooklyn</option>
+				<option type="option" name="city" value="Greensboro">Greensboro</option>
+				<option type="option" name="city" value="Raleigh">Raleigh</option>
+				<option type="option" name="city" value="Hillside">Hillside</option>
 			<select>
 
 		</fieldset>
